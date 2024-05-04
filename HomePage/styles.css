@@ -1,0 +1,89 @@
+nav ul
+{
+    display: flex;
+    align-items: baseline;
+    list-style-type : none;
+    margin-top : 0;
+    margin : 0;
+    padding-top : 0;
+    overflow : hidden;
+}
+
+nav ul li a
+{
+    font-size: 2vw;
+    padding-right : 3vw;
+    color : white;
+    text-decoration : none;
+}
+nav ul li a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.logo
+{
+    float : left;
+    margin-right : 2vw;
+    margin-left : 5vw;
+    font-size: 2vw;
+    color : white ;
+}
+.logo img
+{
+    max-height : 6vw;
+    max-width : 6vw;
+}
+body
+{
+    background-image: url('WORLD.jpg');
+}
+.slideshow
+{
+    position: absolute;
+    max-width: 45vw;
+    max-height: 38vh;
+    right: 25vw;
+    bottom : 40vh;
+
+}
+.slideshow img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+.slideshow p
+{
+    margin-top: 20px;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav{
+    display: flex;
+    align-items: baseline;
+}
+
+@media only screen and (max-width: 1026px) {
+    nav ul li a
+    {
+        font-size: 2.5vw;
+        padding-right : 3vw;
+        color : white;
+        text-decoration : none;
+    }
+    .logo
+{
+    float : left;
+    margin-right : 2vw;
+    margin-left : 5vw;
+    font-size: 2.5vw;
+    color : white ;
+}
+    
+}

@@ -1,0 +1,20 @@
+These are 10 used HTML tags
+nav
+ul
+li
+p
+div
+span
+form
+h1
+button
+audio
+
+The five Css properties used are 
+display
+align-items
+list-style-type
+margin-top
+overflow
+
+I have used bootstrap to create a autoplay slideshow with button for moving forward and backward and i have created a navigation bar using bootstrap which sents to that part of content on a web page and i have used java script for alerting saying hello to typed name.
